@@ -1,0 +1,456 @@
+.homebody{
+    background-color:rgb(25, 25, 25);
+    margin-bottom: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    /*padding: 10px;*/
+    
+
+
+}
+
+
+.navbar {
+top: 0;
+background-color:rgb(25,25,25);
+width: 99vw;
+height: 10vh;
+position: fixed;
+z-index: 10; 
+
+    
+}
+
+
+
+
+.searchsuggestions{
+    position: fixed;
+    color:white;
+    margin-top: 100px;
+    list-style-type: none;
+    z-index: 10;
+
+}
+
+li{
+list-style-type: none;
+}
+.search-button{
+    color: white;
+    border-color: white;
+}
+
+@media screen and (max-width: 1027px) {
+    .navbar {
+      position: relative;
+    }
+    .navbar{
+        margin-bottom: 100px;
+    }
+    
+    
+    
+  }
+
+
+
+
+
+.welcome{
+   padding-top: 150px;
+    
+}
+
+.searchbar{
+    top: 0;
+    margin-top: 63px;
+    position: fixed;
+    width: 97vw;
+    height: 5vh;
+    z-index: 10;
+}
+
+.loginbar{
+    text-align: center;
+}
+
+
+.myrow {
+   
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+
+   
+    
+   
+
+
+.myrow a {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    text-decoration: none;
+    transition: color 0.5s;
+    color:white;
+    
+    
+    
+
+}
+.myrow a:hover{
+    border-bottom: 1px solid red;
+}
+.myrow a:hover{
+    color: red
+}
+
+
+
+
+.welcometitle {
+    color:white;
+    font-size:small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*padding: 30px;*/
+    text-align: left;
+    
+    
+    
+    
+}
+.welcomebody{
+    font-size: large;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:left;
+    margin-bottom: 50px;
+}
+
+.myrow {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.featured-tv-title{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 50px;
+}
+
+
+
+
+.featured{
+    display: block;
+    position: relative;
+    width: 100%;
+   /* overflow: hidden; */
+   
+
+
+    
+
+}
+
+
+.featured-img{
+display: block;
+width: 100%;
+
+
+}
+
+.featured-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s ;
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+    
+
+}
+
+.featured-description{
+    position: absolute;
+    font-size: 2vw;
+    
+
+
+    
+   
+    
+
+       
+}
+
+.featured-title{
+    
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 3vw;
+
+    
+}
+
+
+
+.featured-overlay:hover{
+    opacity: 1;
+}
+  
+   
+
+.bottomhome{
+    text-align: right;
+    margin-top: 100px;
+}
+
+.homesymbol{
+    text-align: center;
+    margin-top: 200px;
+}
+.aboutsymbol{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 167px;
+
+
+}
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stream-scan-about-logo{
+    align-items: center;
+
+}
+
+.aboutbody{
+    background-color: rgb(25,25,25);
+        max-width: 100%;
+        overflow-x: hidden;
+    
+}
+
+.aboutmetitle{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.aboutmepicture{
+    text-align: center;margin-top: 50px;
+
+}
+
+.aboutmecontent{
+    color: white;
+    margin-top: 50px;
+    
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.feedback-page{
+    margin-left: 100px;
+}
+
+.stream-scan-feedback-logo{
+   margin-left: 450px;
+   margin-bottom: 100px;
+}
+.feedback-title{
+    text-align: left;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feedback-content{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.feedback-form{
+    padding-left: 20vw;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    
+}
+
+.email-input{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.rate-experience-row{
+   margin-bottom: 20px;
+
+}
+.add-comments-answer{
+    margin-left: 5.3vw;
+}
+
+.feedback-button{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+
+
+
+.hrtitle{
+
+    margin-top: 20vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.hrtext{
+    margin-top: 5vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.hrcarousel{
+
+margin-top: 5vh;
+margin-left: 55vh;
+width: 100vh;
+
+
+}
+
+.output{
+
+    color: white;
+
+    margin-top: 500px;
+}
+
+
+
+.brand_logo{
+    width: 60vh;
+    margin-bottom: 5vh;
+}
+
+.login_container{
+
+    color: white;
+    margin-top: 6vw;
+    
+}
+
+.login_btn{
+    background-color:rgb(25,56,218);
+    color:white;
+}
+
+
+
+.register_container{
+
+    background-color: black;
+    margin-top: 10vw;
+    
+}
+
+.register_form{
+
+    background-color:rgb(25, 25, 25);
+    color: white;
+}
+
+
+
+        .no_results{
+
+            color: white;
+            margin-top: 9vw;
+            z-index: 10;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+       .search_results{
+
+        color: white;
+        margin-top: 7vw;
+       }
+
+       .results_title{
+           margin-bottom: 5vw;
+       }
+
+       .results{
+           background-color: rgba(30, 30, 30, 0.9);
+       }
+
+       
+
+       .accounttitle{
+           margin-top: 5vw;
+           
+       }
+
+       .accemail{
+           margin-bottom: 5vw;
+       }
+       .watchlist{
+           margin-bottom: 2vw;
+           
+       }
+       .feedbackform{
+
+        margin-left: 30vw;
+        color: white;
+       }
+
+       .sitereviews{
+           margin-top: 2vw;
+           
+       }
+
+       .feedbackposts{
+           margin-top: 5vw;
+       }
+
+       .displayall{
+           margin-top: 10vw;
+          margin-left: 1vw;
+       }
+
+       .displaytitle{
+           margin-bottom: 2vw;
+            text-align: center;
+           
+       }
+
+       
